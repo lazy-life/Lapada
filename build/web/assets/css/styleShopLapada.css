@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#headerMainShop {
+    width: 100%;
+    height: 76px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 1;
+}
+
+.logoShop img {
+    height: 56px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logoShop {
+    box-shadow: 0px 1px 5px rgb(159, 159, 159);
+}
+
+#containAddProduct {
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 50px;
+    margin: 100px auto 50px;
+    background-color: #fff;
+    /* box-shadow: 0px 1px 5px rgb(159, 159, 159); */
+}
+
+#containMidProduct {
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin: 50px auto 50px;
+    background-color: #fff;
+
+}
+
+.headerAdd {
+    margin: 0 30px;
+    padding: 20px 10px;
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.midAddProduct {
+    display: flex;
+    margin: 20px 30px;
+    padding: 20px 10px;
+}
+
+.midAddProduct p {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.midAddProduct input {
+    width: 760px;
+    height: 40px;
+    margin-top: -10px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-left: 75px;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.category {
+    margin-top: 200px;
+    margin-left: 50px;
+    border: none;
+
+}
+
+.category select {
+    width: 760px;
+    height: 40px;
+    /* border: none; */
+    border-radius: 3px;
+}
+
+.category option {
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.imagePro {
+    margin: 0 30px;
+    padding: 20px 10px;
+    margin-top: 120px;
+    display: flex;
+    width: 1000px;
+}
+
+.imagePro .imgP {
+    margin-right: 40px;
+    margin-left: 25px;
+}
+
+.imgP p {
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Chọn Ảnh';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px dashed #1791f2;
+    border-radius: 3px;
+    padding: 35px 17px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+}
+
+.custom-file-input:hover::before {
+    border-color: #1791f2;
+    /* background-color: rgb(145, 145, 145); */
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.btnInputChoosen input {
+    width: 100px;
+}
+
+.detailPro {
+    display: flex;
+    margin: 0 30px;
+    padding: 20px 10px;
+}
+
+.enterDetail {
+    margin-left: 42px;
+    width: 770px;
+    height: 300px;
+}
+
+.attPro {
+    display: flex;
+}
+
+.contendMidetail {
+    display: flex;
+}
+
+.midLeftPro {
+    width: 50%;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.rightLeftPro {
+    width: 50%;
+    margin-top: 40px;
+    margin-right: 50px;
+
+}
+
+.attPro {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.attPro p {
+    font-size: 14px;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.attPro input {
+    width: 100%;
+    height: 40px;
+    margin-top: -10px;
+    border-radius: 3px;
+    border: 1px solid rgb(159, 159, 159);
+    outline: none;
+}
+
+
+#containBotProduct {
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin: 50px auto 100px;
+    background-color: #fff;
+}
+
+.tableOption {
+    margin: 20px 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table tr td input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table tr th {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.btnAddPro {
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 20px;
+    margin: 50px 190px 0;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 -2px 5px rgba(184, 184, 184, 0.571);
+}
+
+.btnAddPro input {
+    background-color: #ee4d2d;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 45px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 0 auto 1000px;
+}
+
+.btnAddPro input:hover {
+    background-color: #d65205;
+    font-size: 16px;
+    color: #fff;
+}
+
+#containMainShop {
+    margin: 140px 160px;
+    width: 1200px;
+    background-color: #fff;
+
+}
